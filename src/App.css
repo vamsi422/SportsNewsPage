@@ -1,0 +1,26 @@
+* {
+  background-color: darkgrey;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  justify-content: center;
+  align-items: center;
+}
+.news_card {
+  /* background-color: rgb(55, 49, 49); */
+  padding: 1rem;
+  max-width: 40vw;
+  margin: 0.5rem;
+  border: 5px solid black;
+  border-radius: 0.4rem;
+}
+img {
+  width: 35vw;
+  background-image: url("../public/man.png");
+}
+h1 {
+  text-align: center;
+  border: 1rem double black;
+}
